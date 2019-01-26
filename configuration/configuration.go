@@ -4,11 +4,10 @@ import (
 	"encoding/json"
 	"errors"
 	"io/ioutil"
+	"journey/filenames"
 	"log"
 	"reflect"
 	"strings"
-
-	"github.com/kabukky/journey/filenames"
 )
 
 // Configuration: settings that are neccesary for server configuration

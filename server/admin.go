@@ -3,6 +3,16 @@ package server
 import (
 	"encoding/json"
 	"io"
+	"journey/authentication"
+	"journey/configuration"
+	"journey/conversion"
+	"journey/database"
+	"journey/date"
+	"journey/filenames"
+	"journey/slug"
+	"journey/structure"
+	"journey/structure/methods"
+	"journey/templates"
 	"log"
 	"net/http"
 	"os"
@@ -12,16 +22,6 @@ import (
 	"time"
 
 	"github.com/dimfeld/httptreemux"
-	"github.com/kabukky/journey/authentication"
-	"github.com/kabukky/journey/configuration"
-	"github.com/kabukky/journey/conversion"
-	"github.com/kabukky/journey/database"
-	"github.com/kabukky/journey/date"
-	"github.com/kabukky/journey/filenames"
-	"github.com/kabukky/journey/slug"
-	"github.com/kabukky/journey/structure"
-	"github.com/kabukky/journey/structure/methods"
-	"github.com/kabukky/journey/templates"
 	"github.com/satori/go.uuid"
 )
 

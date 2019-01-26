@@ -3,7 +3,7 @@
 package plugins
 
 import (
-	"github.com/kabukky/journey/structure"
+	"journey/structure"
 	"github.com/yuin/gopher-lua"
 	"sync"
 )

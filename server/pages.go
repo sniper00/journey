@@ -2,8 +2,8 @@ package server
 
 import (
 	"github.com/dimfeld/httptreemux"
-	"github.com/kabukky/journey/filenames"
-	"github.com/kabukky/journey/helpers"
+	"journey/filenames"
+	"journey/helpers"
 	"net/http"
 	"path/filepath"
 	"strings"
