@@ -15,8 +15,8 @@ content/data/*
 !content/data/README.md
 
 # Images
-content/images/*
-!content/images/README.md
+# content/images/*
+# !content/images/README.md
 
 # Themes
 content/themes/*
